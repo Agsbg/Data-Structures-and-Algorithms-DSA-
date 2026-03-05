@@ -1,6 +1,6 @@
 def linear_search(arr, n, k):
     comparisons = 0
-    
+        
     for i in range(n):
         comparisons += 1
         if arr[i] == k:
@@ -9,7 +9,8 @@ def linear_search(arr, n, k):
             return
     
     print("Not Found")
-    print(f"Comparisons = {comparisons}")
+    
+        print(f"Comparisons = {comparisons}")
 
 # Input
 n = int(input())
