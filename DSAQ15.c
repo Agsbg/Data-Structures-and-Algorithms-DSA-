@@ -1,6 +1,3 @@
-Here's the C solution:
-
-```c
 #include <stdio.h>
 
 int main() {
